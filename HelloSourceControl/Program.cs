@@ -12,7 +12,12 @@ namespace HelloSourceControl
         {
             Console.WriteLine("Enter best girl: ");
             string greeting = Console.ReadLine();
+            if(greeting == "Monika")
+            {
+                Console.WriteLine("Just Monika!");
+            }
             Console.ReadKey();
+            
         }
     }
 }
